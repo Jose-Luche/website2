@@ -4,7 +4,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Baloo', Raleway;
-  color: rgb(7, 65, 7);
+  color: rgb(4, 4, 37);
 }
 /*Added CSS*/
 .dropdown:hover>.dropdown-menu {
@@ -98,7 +98,7 @@ button, button:focus {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 5%;
+  top: 15%;
   z-index: 0;
   color: white;
   text-transform: uppercase;
@@ -141,12 +141,12 @@ button, button:focus {
   padding: .6rem 1.2rem;
   margin: 1rem;
   color: white;
-  background-color: #1ebba3;
-  border-color: #1ebba3;
+  background-color: rgb(7, 65, 7);
+  border-color: rgb(7, 65, 7);
 }
 .btn-secondary:hover {
-  background-color: #189582;
-  border-color: #1ebba3;
+  background-color: rgb(7, 65, 7);
+  border-color: rgb(7, 65, 7);
 }
 
 .offset:before {
@@ -161,11 +161,20 @@ button, button:focus {
   border-radius: 0;
 }
 
+#about h1 {
+  color: rgb(4, 4, 37);
+}
+
+#products h3.heading {
+  color: white;
+}
+
 h3.heading {
   font-size: 1.9rem;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 1.9rem;
+  color: rgb(4, 4, 37);
 }
 
 h5.card-title {
@@ -178,12 +187,14 @@ h5.card-title {
 .heading-underline {
   width: 3rem;
   height: .2rem;
-  background-color: #1ebba3;
+  background-color: rgb(7, 65, 7);
   margin: 0 auto 2rem;
 }
 
+
+
 .feature svg.svg-inline--fa {
-  color: #1ebba3;
+  color: rgb(7, 65, 7);
 }
 .feature h3 {
   font-size: 1.3rem;
@@ -198,7 +209,7 @@ h5.card-title {
   z-index: -1;
 }
 .dark {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgb(4, 4, 37);
   color: white;
   padding: 7rem 2rem;
 }
@@ -214,14 +225,14 @@ h5.card-title {
   border-radius: 50%;
 }
 blockquote .svg-inline--fa {
-  color: #1ebba3;
+  color: rgb(7, 65, 7);
   margin: 1rem;
 }
 .clients-hr {
-  border-top:0.5rem solid #1ebba3;
+  border-top:0.5rem solid rgb(7, 65, 7);
 }
 footer {
-  background-color: #40474e;
+  background-color: rgb(4, 4, 37);
   color: white;
   padding: 2rem 0 2rem;
   margin-top: 1rem;
@@ -235,7 +246,7 @@ footer svg.svg-inline--fa {
   margin: 1.2rem .5rem 0 0;
 }
 footer svg.svg-inline--fa:hover {
-  color: #1ebba3!important;
+  color: rgb(7, 65, 7)!important;
 }
 
 @media (max-width:767px){
@@ -271,4 +282,5 @@ footer svg.svg-inline--fa:hover {
   height: 600px;
   
 }
+
 
